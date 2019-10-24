@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloWorldController {
-    @RequestMapping("/hello")
+    @RequestMapping("/")
     @ResponseBody
     public Map<String, Object> showHelloWorld(){
         Map<String, Object> map = new HashMap<>();
